@@ -5,7 +5,7 @@
 
 This program organizes files in a given folder into subfolders based on their file type.
 
---
+---
 
 ## How to Run
 
