@@ -17,5 +17,60 @@ This program organizes files in a given folder into subfolders based on their fi
    ```python
    organize_folder("path/to/folder", simulate=True)
 5. Run without simulate=True to actually move files:
- ```python
+   ```python
    organize_folder("path/to/folder", simulate=False)
+
+### Locally with Python
+If you prefer, download the notebook as a Python script (.py) from Colab:
+	•	File → Download → Download .py
+	•	Then run in your terminal with Python 3.8+.
+ 
+ ---
+
+## Language and Tools
+### 1. Language: 
+Python 3 (developed in Google Colab)
+### 2. Tools:
+	•	Google Colab (for development and testing)
+	•	Standard Python library only (no external dependencies required)
+
+---
+
+## Extra Features (Bonus)
+### 1. Simulation Mode (simulate=True): 
+preview which files would be moved without making changes.
+### 2. Summary Report: 
+prints how many files were moved into each category.
+### 3. Automatic Subfolder Creation: 
+creates Images/, Documents/, Videos/, and Others/ folders if they do not exist.
+### 4. Collision Handling: 
+if a file with the same name already exists in the target folder, the script renames the new file with a timestamp to avoid overwriting.
+
+---
+
+## Notes
+	•	Only scans the given folder (does not process subfolders).
+	•	You can modify the EXT_MAP dictionary inside the function to support additional file types.
+	•	The notebook was saved directly to GitHub (.ipynb format) to preserve the Colab workflow.
+
+---
+
+## Repository Structure
+File-Organizer/
+│
+├── file_organizer.ipynb   # Main notebook with implementation and tests
+└── README.md              # Project documentation
+
+---
+
+## Example Output
+
+  ## 1. Simulate Mode
+
+```python
+[SIMULATE] Would move: photo.jpg → Images/
+[SIMULATE] Would move: doc.pdf → Documents/
+[SIMULATE] Would move: video.mp4 → Videos/
+[SIMULATE] Would move: notes.txt → Documents/
+[SIMULATE] Would move: audio.mp3 → Others/
+
