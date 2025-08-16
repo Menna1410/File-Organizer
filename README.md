@@ -5,7 +5,7 @@
 
 This program organizes files in a given folder into subfolders based on their file type.
 
----
+--
 
 ## How to Run
 
@@ -25,7 +25,7 @@ If you prefer, download the notebook as a Python script (.py) from Colab:
 	•	File → Download → Download .py
 	•	Then run in your terminal with Python 3.8+.
  
- ---
+ --
 
 ## Language and Tools
 ### 1. Language: 
@@ -34,7 +34,7 @@ Python 3 (developed in Google Colab)
 	•	Google Colab (for development and testing)
 	•	Standard Python library only (no external dependencies required)
 
----
+--
 
 ## Extra Features (Bonus)
 ### 1. Simulation Mode (simulate=True): 
@@ -46,14 +46,14 @@ creates Images/, Documents/, Videos/, and Others/ folders if they do not exist.
 ### 4. Collision Handling: 
 if a file with the same name already exists in the target folder, the script renames the new file with a timestamp to avoid overwriting.
 
----
+--
 
 ## Notes
 	•	Only scans the given folder (does not process subfolders).
 	•	You can modify the EXT_MAP dictionary inside the function to support additional file types.
 	•	The notebook was saved directly to GitHub (.ipynb format) to preserve the Colab workflow.
 
----
+--
 
 ## Repository Structure
 File-Organizer/
@@ -61,7 +61,7 @@ File-Organizer/
 ├── file_organizer.ipynb   # Main notebook with implementation and tests
 └── README.md              # Project documentation
 
----
+--
 
 ## Example Output
 
