@@ -65,12 +65,25 @@ File-Organizer/
 
 ## Example Output
 
-  ## 1. Simulate Mode
+### 1. Simulate Mode
 
-```python
 [SIMULATE] Would move: photo.jpg → Images/
 [SIMULATE] Would move: doc.pdf → Documents/
 [SIMULATE] Would move: video.mp4 → Videos/
 [SIMULATE] Would move: notes.txt → Documents/
 [SIMULATE] Would move: audio.mp3 → Others/
 
+### 2. Organize Mode
+
+Moved: photo.jpg → Images/
+Moved: doc.pdf → Documents/
+Moved: video.mp4 → Videos/
+Moved: notes.txt → Documents/
+Moved: audio.mp3 → Others/
+
+Summary:
+  Documents: 2
+  Images: 1
+  Others: 1
+  Videos: 1
+Total files moved: 5
